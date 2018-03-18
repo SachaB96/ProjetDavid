@@ -35,7 +35,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">test</a>
+              <a class="nav-link" href="#">Acheter</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">test</a>
