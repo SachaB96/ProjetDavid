@@ -34,18 +34,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="#">Accueil
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acheter</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">test</a>
+              <a class="nav-link" href="connexion.php">Se connecter</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Qui sommes-nous</a>
             </li>
           </ul>
         </div>
@@ -64,7 +64,7 @@
         <div class="col-lg-3">
           <h1 class="my-4">Shop Name</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item active">Vendre </a>
+            <a href="vendre.php" class="list-group-item active">Vendre </a>
             <a href="#" class="list-group-item">Acheter</a>
             <a href="#" class="list-group-item">Mon compte</a>
           </div>
