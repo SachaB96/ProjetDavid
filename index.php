@@ -15,13 +15,17 @@
 
     <!-- Custom styles for this template -->
     <link href="css/shop-item.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   </head>
 
   <body>
+     <!-- Page Header -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,14 +50,17 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> 
+     <!-- Navigation -->
+  
 
+    <!-- Page Header -->
+  
     <!-- Page Content -->
 
     <div class="container">
 
-      <div class="row"
->
+      <div class="row">
         <div class="col-lg-3">
           <h1 class="my-4">Shop Name</h1>
           <div class="list-group">
@@ -67,7 +74,7 @@
         <div class="col-lg-9">
 
           <div class="card mt-4">
-            <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+            <img class="card-img-top img-fluid" src="image/téléchargement.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">Product Name</h3>
               <h4>$24.99</h4>
