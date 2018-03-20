@@ -30,19 +30,19 @@
     <!-- Navigation -->
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.php">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.php">Accueil</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="connexion.php">Se connecter</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="connexion.php">Se connecter
+              <span class="sr-only">(current)</span>
+          </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -65,9 +65,9 @@
                 <ol class="breadcrumb">
                     <li><a href="index.php">Accueil &nbsp;</a>
                     </li>
-                    <li class="active"> &nbsp;Connexion /</li>
-                    <li class="font-weight-bold text-decoration:none;"> 
-                    	<a href="#" id="register" class="text-decoration:none;" color="black">&nbsp;  Créer compte </a>
+                    <li class="active" style="color : black; "> &nbsp;Connexion /</li>
+                    <li class="" style="color : black;"> 
+                    	<a href="createAccount.php" id="register" class="text-decoration:none;" >&nbsp;Créer compte </a>
                     </li>
                 </ol>
             </div>
@@ -80,7 +80,7 @@
                             <div class="cols-sm-10">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                                    <input type="text" class="form-control" name="mail" id="mail"  placeholder="Adresse mail utilisée lors de l'inscription"/>
+                                    <input type="text" class="form-control" name="mail" id="mail"  placeholder="Adresse mail"/>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                             <div class="cols-sm-10">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                                    <input type="password" class="form-control" name="pass" id="pass"  placeholder="saisir le mot de passe"/>
+                                    <input type="password" class="form-control" name="pass" id="pass"  placeholder="mot de passe"/>
                                 </div>
                             </div>
                         </div>
